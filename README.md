@@ -1,5 +1,7 @@
-# GoogleColabExercise  
-  
+# NNs  
+
+<h6>The NLP and CV Exercises</h6>
+
 ![](https://img.shields.io/badge/uses-PyTorch-ee4c2c?logo=PyTorch&logoColor=white)
 ![](https://img.shields.io/badge/uses-Keras-d00000?logo=Keras&logoColor=white)
 ![](https://img.shields.io/badge/uses-sklearn-d00000?logoColor=white)
