@@ -5,7 +5,7 @@
 ![](https://img.shields.io/badge/uses-PyTorch-ee4c2c?logo=PyTorch&logoColor=white)
 ![](https://img.shields.io/badge/uses-Keras-d00000?logo=Keras&logoColor=white)
 ![](https://img.shields.io/badge/uses-sklearn-d00000?logoColor=white)
-![](https://img.shields.io/badge/python-3.7.2-407daf?logo=python&logoColor=white)
+![](https://img.shields.io/badge/Python-3.7.2-407daf?logo=python&logoColor=white)
 ![](https://img.shields.io/badge/lab-Jupyter-f37726?logo=Jupyter&logoColor=white) 
 
 ## Overview
