@@ -39,7 +39,15 @@ label_text = ['Sepal Length', 'Sepal Width', 'Petal Length', 'Petal Width']
 #              'petal_length': iris_virginica[2], 'petal_width': iris_virginica[3]}
 
 plt.figure(figsize=(12, 12))
-plt.title("Iris Dataset (blue=setosa, green=versicolour, red=virginca)", fontsize=18)
+
+# plt.scatter(x=iris_setosa.iloc[:, 3], y=iris_setosa.iloc[:, 2], color=setosa_color, s=size)
+# plt.scatter(x=iris_versicolor.iloc[:, 3], y=iris_versicolor.iloc[:, 2], color=versicolor_color, s=size)
+# plt.scatter(x=iris_virginica.iloc[:, 3], y=iris_virginica.iloc[:, 2], color=virginica_color, s=size)
+# plt.title('{} vs {}'.format(label_text[2], label_text[3]))
+# plt.xlabel(label_text[3])
+# plt.ylabel(label_text[2])
+# plt.xticks(ticks[3])
+# plt.yticks(ticks[2])
 
 for i in range(0, 4):
     for j in range(0, 4):
@@ -61,4 +69,4 @@ for i in range(0, 4):
             plt.xticks(ticks[j])
             plt.yticks(ticks[i])
 
-plt.savefig('iris.png', format='png')
+plt.savefig('first.png', format='png')
