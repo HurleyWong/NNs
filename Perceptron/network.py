@@ -50,12 +50,12 @@ def classify(classes_name, setosa_outputs, virginica_outputs, versicolor_outputs
             misclassified += 1
 
     if misclassified == 0:
-        print("All points classified correctly!")
+        print("\nAll points classified correctly!")
     else:
-        print("\nTotal misclassified points: ", misclassified)
+        print("\nThere are {} misclassified points".format(misclassified))
 
     accuracy = (150 - misclassified) / 150 * 100
-    print("Accuracy: ", accuracy, "%\n")
+    print("The accuracy is: ", accuracy, "%\n")
 
 
 def error_prediction(classes_name, setosa_outputs, virginica_outputs, versicolor_outputs):
@@ -96,7 +96,10 @@ classes_setosa = np.where(classes_name == "Iris-setosa", 1, 0)
 hidden_setosa_outputs = np.zeros(150)
 
 # random weights
-hidden_setosa_weights = np.random.rand(5)
+hidden_setosa_weights = np.random.randn(5)
+print("\nThe initialization of weights and bias of setosa in hidden layer: {:.2} {:.2} {:.2} {:.2} {:.2}"
+      .format(hidden_setosa_weights[0], hidden_setosa_weights[1], hidden_setosa_weights[2],
+              hidden_setosa_weights[3], hidden_setosa_weights[4]))
 
 epochs = 0
 max_epochs = 1500
@@ -130,7 +133,10 @@ classes_virginica = np.where(classes_name == "Iris-virginica", 1, 0)
 # the output of setasa in hidden layer
 hidden_virginica_outputs = np.zeros(150)
 # random weights
-hidden_virginica_weights = np.random.rand(5)
+hidden_virginica_weights = np.random.randn(5)
+print("The initialization of weights and bias of virginica in hidden layer: {:.2} {:.2} {:.2} {:.2} {:.2}"
+      .format(hidden_virginica_weights[0], hidden_virginica_weights[1], hidden_virginica_weights[2],
+              hidden_virginica_weights[3], hidden_virginica_weights[4]))
 
 epochs = 0
 max_epochs = 15000

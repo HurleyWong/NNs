@@ -2,6 +2,9 @@ import numpy as np
 import pandas as pd
 import sys
 
+hidden_virginica_weights = np.random.rand(5)
+print(hidden_virginica_weights)
+
 def update_weights(training_samples, weights, classes, learning_rate):
     """
 
