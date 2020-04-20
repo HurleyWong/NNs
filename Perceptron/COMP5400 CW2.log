@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.10.20)  20 APR 2020 00:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.10.20)  20 APR 2020 22:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -559,58 +559,91 @@ Package pdftex.def Info: full_neural.png  used on input line 120.
 <accuracy1.png, id=49, 931.48pt x 401.5pt>
 File: accuracy1.png Graphic file (type png)
 <use accuracy1.png>
-Package pdftex.def Info: accuracy1.png  used on input line 130.
+Package pdftex.def Info: accuracy1.png  used on input line 129.
 (pdftex.def)             Requested size: 156.49014pt x 67.45154pt.
 <accuracy2.png, id=50, 1022.82124pt x 354.32375pt>
 File: accuracy2.png Graphic file (type png)
 <use accuracy2.png>
-Package pdftex.def Info: accuracy2.png  used on input line 134.
+Package pdftex.def Info: accuracy2.png  used on input line 133.
 (pdftex.def)             Requested size: 156.49014pt x 54.20595pt.
 <accuracy3.png, id=51, 972.63374pt x 422.57875pt>
 File: accuracy3.png Graphic file (type png)
 <use accuracy3.png>
-Package pdftex.def Info: accuracy3.png  used on input line 138.
+Package pdftex.def Info: accuracy3.png  used on input line 137.
 (pdftex.def)             Requested size: 156.49014pt x 67.98796pt.
 <accuracy4.png, id=52, 962.59625pt x 337.26pt>
 File: accuracy4.png Graphic file (type png)
 <use accuracy4.png>
-Package pdftex.def Info: accuracy4.png  used on input line 142.
+Package pdftex.def Info: accuracy4.png  used on input line 141.
 (pdftex.def)             Requested size: 156.49014pt x 54.82726pt.
-File: PLvsPW.png Graphic file (type png)
-<use PLvsPW.png>
-Package pdftex.def Info: PLvsPW.png  used on input line 157.
-(pdftex.def)             Requested size: 251.33455pt x 190.30762pt.
+<XOR.png, id=53, 423.5825pt x 287.0725pt>
+File: XOR.png Graphic file (type png)
+<use XOR.png>
+Package pdftex.def Info: XOR.png  used on input line 156.
+(pdftex.def)             Requested size: 169.43pt x 114.82695pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 149--159
+Underfull \hbox (badness 10000) in paragraph at lines 148--158
 
  []
 
 [9 <./full_neural.png> <./accuracy1.png> <./accuracy2.png> <./accuracy3.png> <.
-/accuracy4.png>] [10] (./COMP5400 CW2.aux) ) 
+/accuracy4.png>]
+<model.png, id=59, 908.39375pt x 298.11375pt>
+File: model.png Graphic file (type png)
+<use model.png>
+Package pdftex.def Info: model.png  used on input line 164.
+(pdftex.def)             Requested size: 181.67552pt x 59.62169pt.
+<model_plot.png, id=60, 416.55624pt x 296.10625pt>
+File: model_plot.png Graphic file (type png)
+<use model_plot.png>
+Package pdftex.def Info: model_plot.png  used on input line 165.
+(pdftex.def)             Requested size: 124.96783pt x 88.83255pt.
+ [10 <./XOR.png>]
+<accuracy.png, id=64, 658.46pt x 456.70625pt>
+File: accuracy.png Graphic file (type png)
+<use accuracy.png>
+Package pdftex.def Info: accuracy.png  used on input line 173.
+(pdftex.def)             Requested size: 329.2292pt x 228.35255pt.
+<matrix.png, id=65, 727.71875pt x 356.33125pt>
+File: matrix.png Graphic file (type png)
+<use matrix.png>
+Package pdftex.def Info: matrix.png  used on input line 179.
+(pdftex.def)             Requested size: 218.3173pt x 106.90019pt.
+ [11 <./model.png> <./model_plot.png> <./accuracy.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 182--188
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 182--188
+
+ []
+
+[12 <./matrix.png>] (./COMP5400 CW2.aux) ) 
 Here is how much of TeX's memory you used:
- 4780 strings out of 492616
- 69106 string characters out of 6129480
+ 4805 strings out of 492616
+ 69473 string characters out of 6129480
  135250 words of memory out of 5000000
- 8618 multiletter control sequences out of 15000+600000
+ 8639 multiletter control sequences out of 15000+600000
  9994 words of font info for 40 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,7n,32p,932b,270s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2019/texmf-dist
-/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2019/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2019/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2019/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2019/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2019/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2019/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2019/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/pub
-lic/cm-super/sfrm1000.pfb>
-Output written on "COMP5400 CW2.pdf" (10 pages, 523883 bytes).
+ 41i,7n,32p,932b,272s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2019/texmf-dist/f
+onts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2019/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2019/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2019/texmf-dist/font
+s/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2019/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2019/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2019/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmr8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/publi
+c/cm-super/sfrm1000.pfb>
+Output written on "COMP5400 CW2.pdf" (12 pages, 651145 bytes).
 PDF statistics:
- 95 PDF objects out of 1000 (max. 8388607)
- 56 compressed objects within 1 object stream
+ 107 PDF objects out of 1000 (max. 8388607)
+ 60 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 56 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 81 words of extra memory for PDF output out of 10000 (max. 10000000)
 

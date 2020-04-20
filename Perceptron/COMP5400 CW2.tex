@@ -121,7 +121,6 @@ To build a neural network that produces the classification: versicolor = (1,0,0)
 \caption{full network with all weights and biases}
 \end{figure}
 \noindent
-
 Because the weights are initialized randomly each time, the accuracy of each run is also different. I decide to run 4 times and calculate an average of the accuracy as a result.
 \begin{figure}[htbp]
 \centering
@@ -151,12 +150,41 @@ Apply your implementation in a program that can classify the iris data. Create a
 Experiment with the number of hidden nodes. Consider experimenting with the loss function. Make sure you create a training data set, and not to evaluate your network on this training data set.
 [30 marks]\\\\
 \textbf{Answer:}\\
-Compared to AND or OR problems, XOR problem is inseparable, as shown below. However, perceptron is a linear classification model, so that perceptron cannot solve XOR problem. We choose use the Keras framework to solve the XOR problem.
+Compared to AND or OR problems, XOR problem is inseparable (cannot find only one line to achieve linear separation), as shown below. However, perceptron is a linear classification model, so that single layer perceptron cannot solve XOR problem. We choose use the Keras framework to solve the XOR problem.
 \begin{figure}[H]
 \centering
-\includegraphics[scale=0.4]{PLvsPW.png}
-\caption{replace2}
+\includegraphics[scale=0.4]{XOR.png}
+\caption{XOR problem}
 \end{figure}
 \noindent
+This model includes a hidden layer (4 nodes at first experiment) and an output layer (including 3 nodes which represent label predictionns). The input\_shape parameter of the input layer is correseponding to the number of features in this iris dataset, which means is 4.\\
+We choose to use ReLU  for the hidden layer activation and softmax for the output layer activation. The optimization function of SGD with learning rate 0.01 and momentum 0.9. The full network model is as follows:
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.2]{model.png}
+	\includegraphics[scale=0.3]{model_plot.png}
+	\caption{full network model}
+\end{figure}
+\noindent
+The loss and accuracy of last epoch is 5.32\% and 98.33\%, and the figure of loss and accuracy and confusion matrix are as shown below:
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.5]{accuracy.png}
+\caption{accuracy of Keras model}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.3]{matrix.png}
+\caption{connfusion matrix}
+\end{figure}
+\noindent
+Due to the plot of loss and accuracy, it is clear to see that the curves have converged after 200 epochs. In addition, the accuracy is as high as 98\% (even more than 98\%), and the accuracy of the test data set (30 data) is 100\%, which means this algorithm or model by Keras is excellent.\\\\
+It is clear that this model by Keras has better performace than the network I built in Q4. There are some reasons can explain why the network I built are not enough good:\\
+\textbf{1.} At first, the network I built does not use backpropagation but Keras does. Keras uses the Dense layer to build the feedforward network to train with error reverse propagation algorithms. By using backpropagation, the neural network is constantly changing the connection weights of this network, so that the output of the network is constantly close to the desired output and error is reduced to the extent that it can be received.\\
+\textbf{2.} Next, the network model I built uses gradient descent to update weights, however the model of Keras uses advanced activation, optimizer and loss function, which means it can update and compute network parameters that affect model training and model output to approximate to reach optimal values, thereby minimizing (or maxmizing) the loss function.\\\\
+In addtion, I need to change the number of hidden nodes to consider experimenting with the loss function. The default number of nodes is 4. I change it to 10 and 100, retrain the model and get the figure of loss and accuracy, as shown below:
+
 
 \end{document}
