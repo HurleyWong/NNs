@@ -27,7 +27,7 @@ else:
     pass
 
 # read data
-df = pd.read_csv("iris.csv")
+df = pd.read_csv("data/iris.csv")
 
 x = df.iloc[0:150, [3, 2]].values
 

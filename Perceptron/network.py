@@ -81,7 +81,7 @@ def error_prediction(classes_name, setosa_outputs, virginica_outputs, versicolor
             print("Iris-virginica")
 
 
-df = pd.read_csv("iris.data", header=None)
+df = pd.read_csv("data/iris.data", header=None)
 inputs = df.iloc[0:150, [0, 1, 2, 3]].values
 classes_name = df.iloc[0:150, 4].values
 # error classification list

@@ -26,7 +26,7 @@ Make a scatter plot of petal length against petal width. This means that for eac
 \textbf{Answer:}\\
 \begin{figure}[H]
 \centering
-\includegraphics[scale=0.4]{iris.png}
+\includegraphics[scale=0.4]{./img/iris.png}
 \caption{Iris Dataset (blue=setosa, green=versicolour, red=virginca)}
 \end{figure}
 
@@ -38,7 +38,7 @@ From any of the 12 diagrams above, we can all draw a straight line separating th
 That setosa vs. non-setosa can even be classified by just two of these four features (petal length, petal width, sepal length and sepal width). There are many combinations of four weights and a bias which can classify setosa vs. non-setosa. For example, I choose the one in Q1, petal length against petal width. The figure including decision line of this perceptron as show below:\\
 \begin{figure}[H]
 \centering
-\includegraphics[scale=0.4]{PLvsPW.png}
+\includegraphics[scale=0.4]{./img/PLvsPW.png}
 \caption{Petal Length vs. Petal Width}
 \end{figure}
 \noindent
@@ -55,12 +55,12 @@ With the learning rate 0.01, the accuracy after 150 epochs is nearly 87.33\% (us
 \centering
 \subfigure[with learning rate 0.01]{
 	\begin{minipage}[b]{0.46\textwidth}
-	\includegraphics[width=1\textwidth]{console1.png}
+	\includegraphics[width=1\textwidth]{./img/console1.png}
 	\end{minipage}
 }
 \subfigure[without learning rate]{
 	\begin{minipage}[b]{0.46\textwidth}
-	\includegraphics[width=1\textwidth]{console2.png}
+	\includegraphics[width=1\textwidth]{./img/console2.png}
 	\end{minipage}
 }
 \caption{result of separate setosa from non-setosa after 150 epochs} \label{fig:1}
@@ -74,12 +74,12 @@ By using a appropriate learning rate, the weights can be converged compared to w
 \centering
 \subfigure[with learning rate 0.01]{
 	\begin{minipage}[b]{0.46\textwidth}
-	\includegraphics[width=1\textwidth]{console4.png}
+	\includegraphics[width=1\textwidth]{./img/console4.png}
 	\end{minipage}
 }
 \subfigure[without learning rate]{
 	\begin{minipage}[b]{0.46\textwidth}
-	\includegraphics[width=1\textwidth]{console3.png}
+	\includegraphics[width=1\textwidth]{./img/console3.png}
 	\end{minipage}
 }
 \caption{result of separate virginica from non-virginica} \label{fig:1}
@@ -92,12 +92,12 @@ There is major difference between versicolor and the other two classes. Because 
 \centering
 \subfigure[with learning rate 0.01]{
 	\begin{minipage}[b]{0.46\textwidth}
-	\includegraphics[width=1\textwidth]{console6.png}
+	\includegraphics[width=1\textwidth]{./img/console6.png}
 	\end{minipage}
 }
 \subfigure[without learning rate]{
 	\begin{minipage}[b]{0.46\textwidth}
-	\includegraphics[width=1\textwidth]{console5.png}
+	\includegraphics[width=1\textwidth]{./img/console5.png}
 	\end{minipage}
 }
 \caption{result of separate versicolor from non-versicolor} \label{fig:1}
@@ -112,7 +112,7 @@ To build a neural network that produces the classification: versicolor = (1,0,0)
 \textbf{1.} At first, we can see that when the setosa and virginica output 0, the versicolor will output 1. This is a NOR gate. So, we can only use setosa and virginica to replace versicolor which means that there are only setosa and virginica neural in hidden layer without versicolor. Specifically, due to we define when output $\textless$ 0, it will output for 0 and when output $\geq$ 0, it will output for 1. Hence, for example, we can set setosa and virginica both output -1, and set bias to 0.5 to make balance to make virginica output 1 at the end. This a sub-neural network of versicolor as shown below. 
 \begin{figure}[H]
 \centering
-\includegraphics[scale=0.3]{VeO.png}
+\includegraphics[scale=0.3]{./img/VeO.png}
 \caption{versicolor neuron}
 \end{figure}
 \noindent
@@ -131,21 +131,21 @@ To build a neural network that produces the classification: versicolor = (1,0,0)
 \textbf{2.} Then, it is clear that the setosa neural will output 1 if the perceptron of setosa inputs 1 so that it is a OR gate actually. In addition, due to we want to get setosa = (0,0,1), so we should make other elements to 0 which means we should set the weight of virginica to 0. To make balance, we set the value of bias to -0.5. The neural shows as following:
 \begin{figure}[H]
 \centering
-\includegraphics[scale=0.3]{SO.png}
+\includegraphics[scale=0.3]{./img/SO.png}
 \caption{setosa neuron}
 \end{figure}
 \noindent
 \textbf{3.} Next, the virginica is same as the setosa. Thus, we set the weight of virginica to 1, and weight of setosa to 0, and bias to -0.5. There is the neural network below:
 \begin{figure}[H]
 \centering
-\includegraphics[scale=0.3]{ViO.png}
+\includegraphics[scale=0.3]{./img/ViO.png}
 \caption{virginica neuron}
 \end{figure}
 \noindent
 \textbf{4.} The three outputs and hidden layer of the neural network have been built. Then, we should make 4 parameters: PL, PW, SL, SW as the input layer of this neural network. We use np.random.randn() to get 4 weights and a bias with standard normal distribution (the initialization resutls are different when we run it because it is random). Build the input layer by using these 4 weights and a bias as values for PL, PW, SL, SW and bias of input layer. The full neural network with all weights and biases as shown below:
 \begin{figure}[H]
 \centering
-\includegraphics[scale=0.3]{full_neural.png}
+\includegraphics[scale=0.3]{./img/full_neural.png}
 \caption{full network with all weights and biases}
 \end{figure}
 \noindent
@@ -153,19 +153,19 @@ Because the weights are initialized randomly each time, the accuracy of each run
 \begin{figure}[htbp]
 \centering
 \subfigure[accuracy1.]{
-\includegraphics[width=5.5cm]{accuracy1.png}
+\includegraphics[width=5.5cm]{./img/accuracy1.png}
 }
 \quad
 \subfigure[accuracy2.]{
-\includegraphics[width=5.5cm]{accuracy2.png}
+\includegraphics[width=5.5cm]{./img/accuracy2.png}
 }
 \quad
 \subfigure[accuracy3.]{
-\includegraphics[width=5.5cm]{accuracy3.png}
+\includegraphics[width=5.5cm]{./img/accuracy3.png}
 }
 \quad
 \subfigure[accuracy4.]{
-\includegraphics[width=5.5cm]{accuracy4.png}
+\includegraphics[width=5.5cm]{./img/accuracy4.png}
 }
 \caption{Accuracies}
 \end{figure}
@@ -181,7 +181,7 @@ Experiment with the number of hidden nodes. Consider experimenting with the loss
 Compared to AND or OR problems, XOR problem is inseparable (cannot find only one line to achieve linear separation), as shown below. However, perceptron is a linear classification model, so that single layer perceptron cannot solve XOR problem. We choose use the Keras framework to solve the XOR problem.
 \begin{figure}[H]
 \centering
-\includegraphics[scale=0.4]{XOR.png}
+\includegraphics[scale=0.4]{./img/XOR.png}
 \caption{XOR problem}
 \end{figure}
 \noindent
@@ -189,8 +189,8 @@ This model includes a hidden layer (4 nodes at first experiment) and an output l
 We choose to use ReLU  for the hidden layer activation and softmax for the output layer activation. The optimization function of SGD with learning rate 0.01 and momentum 0.9. The full network model is as follows:
 \begin{figure}[H]
 	\centering
-	\includegraphics[scale=0.2]{model.png}
-	\includegraphics[scale=0.3]{model_plot.png}
+	\includegraphics[scale=0.2]{./img/model.png}
+	\includegraphics[scale=0.3]{./img/model_plot.png}
 	\caption{full network model}
 \end{figure}
 \noindent
@@ -198,13 +198,13 @@ The loss and accuracy of last epoch is 5.32\% and 98.33\%, and the figure of los
 
 \begin{figure}[H]
 \centering
-\includegraphics[scale=0.5]{accuracy.png}
+\includegraphics[scale=0.5]{./img/accuracy.png}
 \caption{accuracy of Keras model}
 \end{figure}
 
 \begin{figure}[H]
 \centering
-\includegraphics[scale=0.3]{matrix.png}
+\includegraphics[scale=0.3]{./img/matrix.png}
 \caption{connfusion matrix}
 \end{figure}
 \noindent

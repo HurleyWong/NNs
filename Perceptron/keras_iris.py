@@ -10,7 +10,7 @@ from keras.optimizers import SGD
 
 from sklearn.metrics import classification_report, confusion_matrix
 
-df = pd.read_csv("iris.csv")
+df = pd.read_csv("data/iris.csv")
 
 df.head()
 

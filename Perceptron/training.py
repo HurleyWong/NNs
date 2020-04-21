@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 from matplotlib.colors import ListedColormap
 from matplotlib.axes._axes import _log as matplotlib_axes_logger
 
-df = pd.read_csv("iris.csv")
+df = pd.read_csv("data/iris.csv")
 df = df.reindex(np.random.permutation(df.index))
 
 df = np.array(df)

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.10.20)  21 APR 2020 18:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.10.20)  21 APR 2020 22:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -358,11 +358,7 @@ Package: subfigure 2002/03/15 v2.1.5 subfigure package
 \subfig@top=\skip54
 \subfig@bottom=\skip55
 )
-(./COMP5400 CW2.aux
-
-LaTeX Warning: Label `fig:1' multiply defined.
-
-)
+(./COMP5400 CW2.aux)
 \openout1 = `"COMP5400 CW2.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
@@ -379,7 +375,8 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
 LaTeX Font Info:    ... okay on input line 16.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 16.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 16.
- (/usr/local/texlive/2019/texmf-dist/tex/latex/base/ts1cmr.fd
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 16.
@@ -454,10 +451,10 @@ LaTeX Font Info:    Try loading font information for U+lasy on input line 18.
 (/usr/local/texlive/2019/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-<iris.png, id=1, 867.24pt x 867.24pt>
-File: iris.png Graphic file (type png)
-<use iris.png>
-Package pdftex.def Info: iris.png  used on input line 29.
+<./img/iris.png, id=1, 867.24pt x 867.24pt>
+File: ./img/iris.png Graphic file (type png)
+<use ./img/iris.png>
+Package pdftex.def Info: ./img/iris.png  used on input line 29.
 (pdftex.def)             Requested size: 346.88986pt x 346.88986pt.
 
 Overfull \hbox (1.88986pt too wide) in paragraph at lines 29--30
@@ -477,10 +474,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 24--31
 [1
 
 {/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-<PLvsPW.png, id=13, 628.3475pt x 475.7775pt>
-File: PLvsPW.png Graphic file (type png)
-<use PLvsPW.png>
-Package pdftex.def Info: PLvsPW.png  used on input line 41.
+<./img/PLvsPW.png, id=13, 628.3475pt x 475.7775pt>
+File: ./img/PLvsPW.png Graphic file (type png)
+<use ./img/PLvsPW.png>
+Package pdftex.def Info: ./img/PLvsPW.png  used on input line 41.
 (pdftex.def)             Requested size: 251.33455pt x 190.30762pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 34--43
@@ -492,48 +489,49 @@ Underfull \hbox (badness 10000) in paragraph at lines 34--43
 
  []
 
-[2 <./iris.png>]
+[2 <./img/iris.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 48--51
 
  []
 
-[3 <./PLvsPW.png>]
-<console1.png, id=24, 765.86125pt x 138.5175pt>
-File: console1.png Graphic file (type png)
-<use console1.png>
-Package pdftex.def Info: console1.png  used on input line 60.
+[3 <./img/PLvsPW.png>]
+<./img/console1.png, id=24, 765.86125pt x 138.5175pt>
+File: ./img/console1.png Graphic file (type png)
+<use ./img/console1.png>
+Package pdftex.def Info: ./img/console1.png  used on input line 60.
 (pdftex.def)             Requested size: 158.70232pt x 28.70273pt.
-<console2.png, id=25, 764.8575pt x 135.50626pt>
-File: console2.png Graphic file (type png)
-<use console2.png>
-Package pdftex.def Info: console2.png  used on input line 65.
+<./img/console2.png, id=25, 764.8575pt x 135.50626pt>
+File: ./img/console2.png Graphic file (type png)
+<use ./img/console2.png>
+Package pdftex.def Info: ./img/console2.png  used on input line 65.
 (pdftex.def)             Requested size: 158.70232pt x 28.11598pt.
-<console4.png, id=26, 764.8575pt x 134.5025pt>
-File: console4.png Graphic file (type png)
-<use console4.png>
-Package pdftex.def Info: console4.png  used on input line 79.
+<./img/console4.png, id=26, 764.8575pt x 134.5025pt>
+File: ./img/console4.png Graphic file (type png)
+<use ./img/console4.png>
+Package pdftex.def Info: ./img/console4.png  used on input line 79.
 (pdftex.def)             Requested size: 158.70232pt x 27.90771pt.
-<console3.png, id=27, 817.0525pt x 136.51pt>
-File: console3.png Graphic file (type png)
-<use console3.png>
-Package pdftex.def Info: console3.png  used on input line 84.
+<./img/console3.png, id=27, 817.0525pt x 136.51pt>
+File: ./img/console3.png Graphic file (type png)
+<use ./img/console3.png>
+Package pdftex.def Info: ./img/console3.png  used on input line 84.
 (pdftex.def)             Requested size: 158.70232pt x 26.51414pt.
-<console6.png, id=28, 766.865pt x 140.525pt>
-File: console6.png Graphic file (type png)
-<use console6.png>
-Package pdftex.def Info: console6.png  used on input line 97.
+<./img/console6.png, id=28, 766.865pt x 140.525pt>
+File: ./img/console6.png Graphic file (type png)
+<use ./img/console6.png>
+Package pdftex.def Info: ./img/console6.png  used on input line 97.
 (pdftex.def)             Requested size: 158.70232pt x 29.08012pt.
-<console5.png, id=29, 764.8575pt x 134.5025pt>
-File: console5.png Graphic file (type png)
-<use console5.png>
-Package pdftex.def Info: console5.png  used on input line 102.
+<./img/console5.png, id=29, 764.8575pt x 134.5025pt>
+File: ./img/console5.png Graphic file (type png)
+<use ./img/console5.png>
+Package pdftex.def Info: ./img/console5.png  used on input line 102.
 (pdftex.def)             Requested size: 158.70232pt x 27.90771pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 90--104
 
  []
 
-[4 <./console1.png> <./console2.png> <./console4.png> <./console3.png>]
+[4 <./img/console1.png> <./img/console2.png> <./img/console4.png> <./img/consol
+e3.png>]
 
 LaTeX Warning: Command \textless invalid in math mode on input line 112.
 
@@ -548,88 +546,88 @@ LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10> not available
 
 LaTeX Warning: Command \textless invalid in math mode on input line 112.
 
-<VeO.png, id=34, 420.57124pt x 423.5825pt>
-File: VeO.png Graphic file (type png)
-<use VeO.png>
-Package pdftex.def Info: VeO.png  used on input line 115.
+<./img/VeO.png, id=34, 420.57124pt x 423.5825pt>
+File: ./img/VeO.png Graphic file (type png)
+<use ./img/VeO.png>
+Package pdftex.def Info: ./img/VeO.png  used on input line 115.
 (pdftex.def)             Requested size: 126.17235pt x 127.07573pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 109--117
 
  []
 
-[5 <./console6.png> <./console5.png>]
-<SO.png, id=38, 420.57124pt x 423.5825pt>
-File: SO.png Graphic file (type png)
-<use SO.png>
-Package pdftex.def Info: SO.png  used on input line 134.
+[5 <./img/console6.png> <./img/console5.png>]
+<./img/SO.png, id=38, 420.57124pt x 423.5825pt>
+File: ./img/SO.png Graphic file (type png)
+<use ./img/SO.png>
+Package pdftex.def Info: ./img/SO.png  used on input line 134.
 (pdftex.def)             Requested size: 126.17235pt x 127.07573pt.
- [6 <./VeO.png>]
-<ViO.png, id=44, 420.57124pt x 423.5825pt>
-File: ViO.png Graphic file (type png)
-<use ViO.png>
-Package pdftex.def Info: ViO.png  used on input line 141.
+ [6 <./img/VeO.png>]
+<./img/ViO.png, id=44, 420.57124pt x 423.5825pt>
+File: ./img/ViO.png Graphic file (type png)
+<use ./img/ViO.png>
+Package pdftex.def Info: ./img/ViO.png  used on input line 141.
 (pdftex.def)             Requested size: 126.17235pt x 127.07573pt.
-<full_neural.png, id=45, 1100.11pt x 688.5725pt>
-File: full_neural.png Graphic file (type png)
-<use full_neural.png>
-Package pdftex.def Info: full_neural.png  used on input line 148.
+<./img/full_neural.png, id=45, 1100.11pt x 688.5725pt>
+File: ./img/full_neural.png Graphic file (type png)
+<use ./img/full_neural.png>
+Package pdftex.def Info: ./img/full_neural.png  used on input line 148.
 (pdftex.def)             Requested size: 330.03555pt x 206.57333pt.
- [7 <./SO.png> <./ViO.png>]
-<accuracy1.png, id=52, 931.48pt x 401.5pt>
-File: accuracy1.png Graphic file (type png)
-<use accuracy1.png>
-Package pdftex.def Info: accuracy1.png  used on input line 157.
+ [7 <./img/SO.png> <./img/ViO.png>]
+<./img/accuracy1.png, id=52, 931.48pt x 401.5pt>
+File: ./img/accuracy1.png Graphic file (type png)
+<use ./img/accuracy1.png>
+Package pdftex.def Info: ./img/accuracy1.png  used on input line 157.
 (pdftex.def)             Requested size: 156.49014pt x 67.45154pt.
-<accuracy2.png, id=53, 1022.82124pt x 354.32375pt>
-File: accuracy2.png Graphic file (type png)
-<use accuracy2.png>
-Package pdftex.def Info: accuracy2.png  used on input line 161.
+<./img/accuracy2.png, id=53, 1022.82124pt x 354.32375pt>
+File: ./img/accuracy2.png Graphic file (type png)
+<use ./img/accuracy2.png>
+Package pdftex.def Info: ./img/accuracy2.png  used on input line 161.
 (pdftex.def)             Requested size: 156.49014pt x 54.20595pt.
-<accuracy3.png, id=54, 972.63374pt x 422.57875pt>
-File: accuracy3.png Graphic file (type png)
-<use accuracy3.png>
-Package pdftex.def Info: accuracy3.png  used on input line 165.
+<./img/accuracy3.png, id=54, 972.63374pt x 422.57875pt>
+File: ./img/accuracy3.png Graphic file (type png)
+<use ./img/accuracy3.png>
+Package pdftex.def Info: ./img/accuracy3.png  used on input line 165.
 (pdftex.def)             Requested size: 156.49014pt x 67.98796pt.
-<accuracy4.png, id=55, 962.59625pt x 337.26pt>
-File: accuracy4.png Graphic file (type png)
-<use accuracy4.png>
-Package pdftex.def Info: accuracy4.png  used on input line 169.
+<./img/accuracy4.png, id=55, 962.59625pt x 337.26pt>
+File: ./img/accuracy4.png Graphic file (type png)
+<use ./img/accuracy4.png>
+Package pdftex.def Info: ./img/accuracy4.png  used on input line 169.
 (pdftex.def)             Requested size: 156.49014pt x 54.82726pt.
-<XOR.png, id=56, 423.5825pt x 287.0725pt>
-File: XOR.png Graphic file (type png)
-<use XOR.png>
-Package pdftex.def Info: XOR.png  used on input line 184.
+<./img/XOR.png, id=56, 423.5825pt x 287.0725pt>
+File: ./img/XOR.png Graphic file (type png)
+<use ./img/XOR.png>
+Package pdftex.def Info: ./img/XOR.png  used on input line 184.
 (pdftex.def)             Requested size: 169.43pt x 114.82695pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 176--186
 
  []
 
-[8 <./full_neural.png> <./accuracy1.png> <./accuracy2.png> <./accuracy3.png> <.
-/accuracy4.png>]
-<model.png, id=61, 908.39375pt x 298.11375pt>
-File: model.png Graphic file (type png)
-<use model.png>
-Package pdftex.def Info: model.png  used on input line 192.
+[8 <./img/full_neural.png> <./img/accuracy1.png> <./img/accuracy2.png> <./img/a
+ccuracy3.png> <./img/accuracy4.png>]
+<./img/model.png, id=61, 908.39375pt x 298.11375pt>
+File: ./img/model.png Graphic file (type png)
+<use ./img/model.png>
+Package pdftex.def Info: ./img/model.png  used on input line 192.
 (pdftex.def)             Requested size: 181.67552pt x 59.62169pt.
-<model_plot.png, id=62, 416.55624pt x 296.10625pt>
-File: model_plot.png Graphic file (type png)
-<use model_plot.png>
-Package pdftex.def Info: model_plot.png  used on input line 193.
+<./img/model_plot.png, id=62, 416.55624pt x 296.10625pt>
+File: ./img/model_plot.png Graphic file (type png)
+<use ./img/model_plot.png>
+Package pdftex.def Info: ./img/model_plot.png  used on input line 193.
 (pdftex.def)             Requested size: 124.96783pt x 88.83255pt.
- [9 <./XOR.png>]
-<accuracy.png, id=66, 658.46pt x 456.70625pt>
-File: accuracy.png Graphic file (type png)
-<use accuracy.png>
-Package pdftex.def Info: accuracy.png  used on input line 201.
+ [9 <./img/XOR.png>]
+<./img/accuracy.png, id=66, 658.46pt x 456.70625pt>
+File: ./img/accuracy.png Graphic file (type png)
+<use ./img/accuracy.png>
+Package pdftex.def Info: ./img/accuracy.png  used on input line 201.
 (pdftex.def)             Requested size: 329.2292pt x 228.35255pt.
-<matrix.png, id=67, 727.71875pt x 356.33125pt>
-File: matrix.png Graphic file (type png)
-<use matrix.png>
-Package pdftex.def Info: matrix.png  used on input line 207.
+<./img/matrix.png, id=67, 727.71875pt x 356.33125pt>
+File: ./img/matrix.png Graphic file (type png)
+<use ./img/matrix.png>
+Package pdftex.def Info: ./img/matrix.png  used on input line 207.
 (pdftex.def)             Requested size: 218.3173pt x 106.90019pt.
- [10 <./model.png> <./model_plot.png> <./accuracy.png>]
+ [10 <./img/model.png> <./img/model_plot.png> <./img/accuracy.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 210--216
 
  []
@@ -639,15 +637,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 210--216
 
  []
 
-[11 <./matrix.png>] (./COMP5400 CW2.aux)
+[11 <./img/matrix.png>] (./COMP5400 CW2.aux)
 
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 4831 strings out of 492616
- 69880 string characters out of 6129480
- 136297 words of memory out of 5000000
+ 4832 strings out of 492616
+ 70390 string characters out of 6129480
+ 136250 words of memory out of 5000000
  8660 multiletter control sequences out of 15000+600000
  9994 words of font info for 40 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191

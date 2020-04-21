@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 
-iris = pd.read_csv('iris.csv')
+iris = pd.read_csv('data/iris.csv')
 
 # first flower
 iris_setosa = iris.iloc[:50]
@@ -57,4 +57,4 @@ for i in range(0, 4):
             plt.xticks(ticks[j])
             plt.yticks(ticks[i])
 
-plt.savefig('iris.png', format='png')
+plt.savefig('./img/iris.png', format='png')
