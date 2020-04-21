@@ -35,7 +35,7 @@ Based on the plots, do you believe that setosa vs. non-setosa can be learnt by a
 [15 marks]\\\\
 \textbf{Answer:}\\
 From any of the 12 diagrams above, we can all draw a straight line separating the points of the setosa class from the colors of the other two classes. This shows that the setosa class is linearly separated from the non-setosa class. Thus it can be learned by the perceptron.\\
-That setosa vs. non-setosa can even be classified by just two of these four features (petal length, petal width, sepal length and sepal width). There are many combinations of four weights and a bias which can classify setosa vs. non-setosa. For example, I choose the one in Q1, petal length against petal width. The figure as show below:\\
+That setosa vs. non-setosa can even be classified by just two of these four features (petal length, petal width, sepal length and sepal width). There are many combinations of four weights and a bias which can classify setosa vs. non-setosa. For example, I choose the one in Q1, petal length against petal width. The figure including decision line of this perceptron as show below:\\
 \begin{figure}[H]
 \centering
 \includegraphics[scale=0.4]{PLvsPW.png}
@@ -49,11 +49,21 @@ Implement the standard perceptron algorithm without learning rate and train a pe
 [25 marks]\\\\
 \textbf{Answer:}
 \subsection{setosa vs. non-setosa}
-I hope the algorithm to converge after training because it is easily to find a single dicision line to separate the points of setosa and the points of non-setosa in each subplot in Figure 1 of Q1. From the result we can conclude that the algorithm will converge and weights will not change frequently, with or without using learning rate. As figure shown below, with the learning rate 0.01, the accuracy after 150 epochs is nearly 96.67\% (usually between 80\% and 100\%), and the number of misclassified points are only 5. The converge count is 135 means that weights are unchanged in 135 continuous epochs.
+I hope the algorithm to converge after training because it is easily to find a single decision line to separate the points of setosa and the points of non-setosa in each subplot in Figure 1 of Q1. From the result (as the figures shown below), we can conclude that the algorithm will converge and weights will not change frequently, with or without using learning rate.\\
+With the learning rate 0.01, the accuracy after 150 epochs is nearly 87.33\% (usually between 80\% and 100\%), and the number of misclassified points is 19. The converge count is 91 means that weights are unchanged in 91 continuous epochs. Similarly, without using learning rate, the accuracy after 150 epochs is nearly 95.33\% and the number of misclassified points is only 7 and the converge count is 127. It can be said that this algorithm has converged.
 \begin{figure}[H]
 \centering
-\includegraphics[scale=0.4]{console.png}
-\caption{result of separate setosa from non-setosa after 150 epochs}
+\subfigure[with learning rate 0.01]{
+	\begin{minipage}[b]{0.46\textwidth}
+	\includegraphics[width=1\textwidth]{console1.png}
+	\end{minipage}
+}
+\subfigure[without learning rate]{
+	\begin{minipage}[b]{0.46\textwidth}
+	\includegraphics[width=1\textwidth]{console2.png}
+	\end{minipage}
+}
+\caption{result of separate setosa from non-setosa after 150 epochs} \label{fig:1}
 \end{figure}
 \noindent
 
@@ -62,8 +72,17 @@ As can be seen from the 12 subplots of Figure 1 in the Q1, the points of virgini
 By using a appropriate learning rate, the weights can be converged compared to without learning rate. The perceptron can find a hyperplane to separate the points of virginica and non-virginica nearly, as shown below. However, there still a few misclassified points on the margin of the part of virginica and non-virginica because there is no single hyperplace in the 4D to separate all points of virginica from the points of non-virginica actually.
 \begin{figure}[H]
 \centering
-\includegraphics[scale=0.4]{PLvsPW.png}
-\caption{replace1}
+\subfigure[with learning rate 0.01]{
+	\begin{minipage}[b]{0.46\textwidth}
+	\includegraphics[width=1\textwidth]{console4.png}
+	\end{minipage}
+}
+\subfigure[without learning rate]{
+	\begin{minipage}[b]{0.46\textwidth}
+	\includegraphics[width=1\textwidth]{console3.png}
+	\end{minipage}
+}
+\caption{result of separate virginica from non-virginica} \label{fig:1}
 \end{figure}
 \noindent
 
@@ -71,8 +90,17 @@ By using a appropriate learning rate, the weights can be converged compared to w
 There is major difference between versicolor and the other two classes. Because as the Figure 1 shown above in Q1, the points of versicolor class lie between the points of the other two classes in each subplot. So, we cannot find just one decision line or decision boundary to almost separate the points of versicolor and non-versicolor, as shown below.\\
 \begin{figure}[H]
 \centering
-\includegraphics[scale=0.4]{PLvsPW.png}
-\caption{replace2}
+\subfigure[with learning rate 0.01]{
+	\begin{minipage}[b]{0.46\textwidth}
+	\includegraphics[width=1\textwidth]{console6.png}
+	\end{minipage}
+}
+\subfigure[without learning rate]{
+	\begin{minipage}[b]{0.46\textwidth}
+	\includegraphics[width=1\textwidth]{console5.png}
+	\end{minipage}
+}
+\caption{result of separate versicolor from non-versicolor} \label{fig:1}
 \end{figure}
 \noindent
 Hence, even we add learning rate to perceptron algorithm, the weights seem always change in each epoch which means that it cannot converge. The accuracy are between 49\% to no more than 65\%, and the number of misclassified points are always more than 50 (stopping criterion) when the training is not over.

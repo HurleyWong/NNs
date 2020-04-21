@@ -28,6 +28,9 @@ else:
 
 # read data
 df = pd.read_csv("iris.csv")
+
+x = df.iloc[0:150, [3, 2]].values
+
 # random sort
 df = df.reindex(np.random.permutation(df.index))
 # ndarray to store weights
@@ -113,43 +116,40 @@ while num_epochs < 150 and num_misclassification < num_stop:
 print("The learning rate is {}".format(learning_rate))
 print("The perceptron was stopped after {} epochs".format(num_epochs))
 
-# x = np.arange(0, 150)
-# plt.figure()
-# plt.plot(x, accuracy_list, "r", linewidth=1)
-# plt.xlabel("epoch")
-# plt.ylabel("accuracy")
-# plt.title("Accuracy of {} by erceptron without learning rate".format(classification))
+# plt.scatter(x[:50, 0], x[:50, 1], color='blue', label='setosa')
+# plt.scatter(x[50:100, 0], x[50:100, 1], color='green', label='versicolor')
+# plt.scatter(x[100:150, 0], x[100:150, 1], color='red', label='virginica')
+# plt.xlabel("Petal Width")
+# plt.ylabel("Petal Length")
+# plt.legend(loc='upper left')
+#
+# pl_weight = training_weights[2]
+# pw_weight = training_weights[3]
+# bias = training_weights[4]
+#
+# # x_axis = []
+# # y_axis = []
+#
+# axes = plt.gca()
+# x_axis = np.array(axes.get_xlim())
+# y_axis = -pl_weight / pw_weight * x_axis - bias / pw_weight
+# # y_axis = - (bias / pw_weight + (pl_weight / pw_weight) * x_axis)
+# plt.plot(x_axis, y_axis, '--')
+#
+
+# count = 0
+# while count < 3:
+#     x_axis.append(count)
+#     y_axis.append((count * pw_weight + bias) / - pl_weight)
+#     count += 0.1
+#
+# plt.plot(x_axis, y_axis, color='orange')
 # plt.show()
 
-def predict_class(x, weights):
-    # hidden layer
-    if weights.size == 5:
-        dot_product = np.dot(x, weights[:4]) + weights[4]
-    # output layer
-    else:
-        dot_product = np.dot(x, weights[:2]) + weights[2]
-    if dot_product >= 0:
-        return 0
-    else:
-        return 1
-
-# outputs = np.zeros(150)
-# for i in range(150):
-#     outputs[i] = predict_class(inputs[i], training_weights)
-
-# misclassified = 0
-# for i in range(150):
-#     if outputs[i] == 1:
-#         myClass = classification
-#     else:
-#         myClass = "non-" + classification
-#
-#     if myClass != classes_string[i]:
-#         print("Misclassified Point: ", inputs[i], ". Actual class is ", original_classes[i],
-#               ", but classified as", myClass)
-#         misclassified += 1
-#
-# if misclassified == 0:
-#     print("All points classified correctly!\n")
-# else:
-#     print("\nTotal misclassified points: ", misclassified, "\n")
+# x = np.arange(0, num_epochs - 20)
+# plt.figure()
+# plt.plot(x, accuracy_list[20:num_epochs], "r", linewidth=1)
+# plt.xlabel("epoch")
+# plt.ylabel("accuracy")
+# plt.title("Accuracy of {} by perceptron without learning rate".format(classification))
+# plt.show()

@@ -35,6 +35,7 @@ plt.figure(figsize=(12, 12))
 # plt.ylabel(label_text[2])
 # plt.xticks(ticks[3])
 # plt.yticks(ticks[2])
+# plt.show()
 
 for i in range(0, 4):
     for j in range(0, 4):
