@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.10.20)  21 APR 2020 22:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.10.20)  22 APR 2020 14:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -358,7 +358,14 @@ Package: subfigure 2002/03/15 v2.1.5 subfigure package
 \subfig@top=\skip54
 \subfig@bottom=\skip55
 )
-(./COMP5400 CW2.aux)
+(./COMP5400 CW2.aux
+
+LaTeX Warning: Label `fig:1' multiply defined.
+
+
+LaTeX Warning: Label `fig:1' multiply defined.
+
+)
 \openout1 = `"COMP5400 CW2.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
@@ -375,8 +382,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
 LaTeX Font Info:    ... okay on input line 16.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 16.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 16.
-
-(/usr/local/texlive/2019/texmf-dist/tex/latex/base/ts1cmr.fd
+ (/usr/local/texlive/2019/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 16.
@@ -451,205 +457,231 @@ LaTeX Font Info:    Try loading font information for U+lasy on input line 18.
 (/usr/local/texlive/2019/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-<./img/iris.png, id=1, 867.24pt x 867.24pt>
+<./img/scatter.png, id=1, 581.17125pt x 437.635pt>
+File: ./img/scatter.png Graphic file (type png)
+<use ./img/scatter.png>
+Package pdftex.def Info: ./img/scatter.png  used on input line 27.
+(pdftex.def)             Requested size: 232.46437pt x 175.05089pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--29
+
+ []
+
+<./img/iris.png, id=2, 867.24pt x 867.24pt>
 File: ./img/iris.png Graphic file (type png)
 <use ./img/iris.png>
-Package pdftex.def Info: ./img/iris.png  used on input line 29.
+Package pdftex.def Info: ./img/iris.png  used on input line 34.
 (pdftex.def)             Requested size: 346.88986pt x 346.88986pt.
 
-Overfull \hbox (1.88986pt too wide) in paragraph at lines 29--30
+Overfull \hbox (1.88986pt too wide) in paragraph at lines 34--35
  [][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 24--31
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 24--31
-
  []
 
 [1
 
-{/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-<./img/PLvsPW.png, id=13, 628.3475pt x 475.7775pt>
+{/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./img/s
+catter.png>]
+<./img/PLvsPW.png, id=14, 628.3475pt x 475.7775pt>
 File: ./img/PLvsPW.png Graphic file (type png)
 <use ./img/PLvsPW.png>
-Package pdftex.def Info: ./img/PLvsPW.png  used on input line 41.
+Package pdftex.def Info: ./img/PLvsPW.png  used on input line 46.
 (pdftex.def)             Requested size: 251.33455pt x 190.30762pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 34--43
+Underfull \hbox (badness 10000) in paragraph at lines 39--48
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 34--43
+Underfull \hbox (badness 10000) in paragraph at lines 39--48
 
  []
 
 [2 <./img/iris.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 48--51
+Underfull \hbox (badness 10000) in paragraph at lines 53--56
 
  []
 
 [3 <./img/PLvsPW.png>]
-<./img/console1.png, id=24, 765.86125pt x 138.5175pt>
+<./img/console1.png, id=25, 765.86125pt x 138.5175pt>
 File: ./img/console1.png Graphic file (type png)
 <use ./img/console1.png>
-Package pdftex.def Info: ./img/console1.png  used on input line 60.
+Package pdftex.def Info: ./img/console1.png  used on input line 65.
 (pdftex.def)             Requested size: 158.70232pt x 28.70273pt.
-<./img/console2.png, id=25, 764.8575pt x 135.50626pt>
+<./img/console2.png, id=26, 764.8575pt x 135.50626pt>
 File: ./img/console2.png Graphic file (type png)
 <use ./img/console2.png>
-Package pdftex.def Info: ./img/console2.png  used on input line 65.
+Package pdftex.def Info: ./img/console2.png  used on input line 70.
 (pdftex.def)             Requested size: 158.70232pt x 28.11598pt.
-<./img/console4.png, id=26, 764.8575pt x 134.5025pt>
+<./img/console4.png, id=27, 764.8575pt x 134.5025pt>
 File: ./img/console4.png Graphic file (type png)
 <use ./img/console4.png>
-Package pdftex.def Info: ./img/console4.png  used on input line 79.
+Package pdftex.def Info: ./img/console4.png  used on input line 84.
 (pdftex.def)             Requested size: 158.70232pt x 27.90771pt.
-<./img/console3.png, id=27, 817.0525pt x 136.51pt>
+<./img/console3.png, id=28, 817.0525pt x 136.51pt>
 File: ./img/console3.png Graphic file (type png)
 <use ./img/console3.png>
-Package pdftex.def Info: ./img/console3.png  used on input line 84.
+Package pdftex.def Info: ./img/console3.png  used on input line 89.
 (pdftex.def)             Requested size: 158.70232pt x 26.51414pt.
-<./img/console6.png, id=28, 766.865pt x 140.525pt>
+<./img/console6.png, id=29, 766.865pt x 140.525pt>
 File: ./img/console6.png Graphic file (type png)
 <use ./img/console6.png>
-Package pdftex.def Info: ./img/console6.png  used on input line 97.
+Package pdftex.def Info: ./img/console6.png  used on input line 102.
 (pdftex.def)             Requested size: 158.70232pt x 29.08012pt.
-<./img/console5.png, id=29, 764.8575pt x 134.5025pt>
+<./img/console5.png, id=30, 764.8575pt x 134.5025pt>
 File: ./img/console5.png Graphic file (type png)
 <use ./img/console5.png>
-Package pdftex.def Info: ./img/console5.png  used on input line 102.
+Package pdftex.def Info: ./img/console5.png  used on input line 107.
 (pdftex.def)             Requested size: 158.70232pt x 27.90771pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 90--104
+Underfull \hbox (badness 10000) in paragraph at lines 95--109
 
  []
 
 [4 <./img/console1.png> <./img/console2.png> <./img/console4.png> <./img/consol
 e3.png>]
 
-LaTeX Warning: Command \textless invalid in math mode on input line 112.
+LaTeX Warning: Command \textless invalid in math mode on input line 117.
 
-LaTeX Font Info:    Try loading font information for OML+cmr on input line 112.
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 117.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/base/omlcmr.fd
 File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 112.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 117.
 
 
-LaTeX Warning: Command \textless invalid in math mode on input line 112.
+LaTeX Warning: Command \textless invalid in math mode on input line 117.
 
-<./img/VeO.png, id=34, 420.57124pt x 423.5825pt>
+<./img/VeO.png, id=35, 420.57124pt x 423.5825pt>
 File: ./img/VeO.png Graphic file (type png)
 <use ./img/VeO.png>
-Package pdftex.def Info: ./img/VeO.png  used on input line 115.
+Package pdftex.def Info: ./img/VeO.png  used on input line 120.
 (pdftex.def)             Requested size: 126.17235pt x 127.07573pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 109--117
+Underfull \hbox (badness 10000) in paragraph at lines 114--122
 
  []
 
 [5 <./img/console6.png> <./img/console5.png>]
-<./img/SO.png, id=38, 420.57124pt x 423.5825pt>
+<./img/SO.png, id=39, 420.57124pt x 423.5825pt>
 File: ./img/SO.png Graphic file (type png)
 <use ./img/SO.png>
-Package pdftex.def Info: ./img/SO.png  used on input line 134.
+Package pdftex.def Info: ./img/SO.png  used on input line 139.
 (pdftex.def)             Requested size: 126.17235pt x 127.07573pt.
  [6 <./img/VeO.png>]
-<./img/ViO.png, id=44, 420.57124pt x 423.5825pt>
+<./img/ViO.png, id=45, 420.57124pt x 423.5825pt>
 File: ./img/ViO.png Graphic file (type png)
 <use ./img/ViO.png>
-Package pdftex.def Info: ./img/ViO.png  used on input line 141.
+Package pdftex.def Info: ./img/ViO.png  used on input line 146.
 (pdftex.def)             Requested size: 126.17235pt x 127.07573pt.
-<./img/full_neural.png, id=45, 1100.11pt x 688.5725pt>
+<./img/full_neural.png, id=46, 1100.11pt x 688.5725pt>
 File: ./img/full_neural.png Graphic file (type png)
 <use ./img/full_neural.png>
-Package pdftex.def Info: ./img/full_neural.png  used on input line 148.
+Package pdftex.def Info: ./img/full_neural.png  used on input line 153.
 (pdftex.def)             Requested size: 330.03555pt x 206.57333pt.
  [7 <./img/SO.png> <./img/ViO.png>]
-<./img/accuracy1.png, id=52, 931.48pt x 401.5pt>
+<./img/accuracy1.png, id=53, 931.48pt x 401.5pt>
 File: ./img/accuracy1.png Graphic file (type png)
 <use ./img/accuracy1.png>
-Package pdftex.def Info: ./img/accuracy1.png  used on input line 157.
+Package pdftex.def Info: ./img/accuracy1.png  used on input line 162.
 (pdftex.def)             Requested size: 156.49014pt x 67.45154pt.
-<./img/accuracy2.png, id=53, 1022.82124pt x 354.32375pt>
+<./img/accuracy2.png, id=54, 1022.82124pt x 354.32375pt>
 File: ./img/accuracy2.png Graphic file (type png)
 <use ./img/accuracy2.png>
-Package pdftex.def Info: ./img/accuracy2.png  used on input line 161.
+Package pdftex.def Info: ./img/accuracy2.png  used on input line 166.
 (pdftex.def)             Requested size: 156.49014pt x 54.20595pt.
-<./img/accuracy3.png, id=54, 972.63374pt x 422.57875pt>
+<./img/accuracy3.png, id=55, 972.63374pt x 422.57875pt>
 File: ./img/accuracy3.png Graphic file (type png)
 <use ./img/accuracy3.png>
-Package pdftex.def Info: ./img/accuracy3.png  used on input line 165.
+Package pdftex.def Info: ./img/accuracy3.png  used on input line 170.
 (pdftex.def)             Requested size: 156.49014pt x 67.98796pt.
-<./img/accuracy4.png, id=55, 962.59625pt x 337.26pt>
+<./img/accuracy4.png, id=56, 962.59625pt x 337.26pt>
 File: ./img/accuracy4.png Graphic file (type png)
 <use ./img/accuracy4.png>
-Package pdftex.def Info: ./img/accuracy4.png  used on input line 169.
+Package pdftex.def Info: ./img/accuracy4.png  used on input line 174.
 (pdftex.def)             Requested size: 156.49014pt x 54.82726pt.
-<./img/XOR.png, id=56, 423.5825pt x 287.0725pt>
+<./img/XOR.png, id=57, 423.5825pt x 287.0725pt>
 File: ./img/XOR.png Graphic file (type png)
 <use ./img/XOR.png>
-Package pdftex.def Info: ./img/XOR.png  used on input line 184.
+Package pdftex.def Info: ./img/XOR.png  used on input line 189.
 (pdftex.def)             Requested size: 169.43pt x 114.82695pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 176--186
+Underfull \hbox (badness 10000) in paragraph at lines 181--191
 
  []
 
 [8 <./img/full_neural.png> <./img/accuracy1.png> <./img/accuracy2.png> <./img/a
 ccuracy3.png> <./img/accuracy4.png>]
-<./img/model.png, id=61, 908.39375pt x 298.11375pt>
+<./img/model.png, id=62, 908.39375pt x 298.11375pt>
 File: ./img/model.png Graphic file (type png)
 <use ./img/model.png>
-Package pdftex.def Info: ./img/model.png  used on input line 192.
+Package pdftex.def Info: ./img/model.png  used on input line 197.
 (pdftex.def)             Requested size: 181.67552pt x 59.62169pt.
-<./img/model_plot.png, id=62, 416.55624pt x 296.10625pt>
+<./img/model_plot.png, id=63, 416.55624pt x 296.10625pt>
 File: ./img/model_plot.png Graphic file (type png)
 <use ./img/model_plot.png>
-Package pdftex.def Info: ./img/model_plot.png  used on input line 193.
+Package pdftex.def Info: ./img/model_plot.png  used on input line 198.
 (pdftex.def)             Requested size: 124.96783pt x 88.83255pt.
  [9 <./img/XOR.png>]
-<./img/accuracy.png, id=66, 658.46pt x 456.70625pt>
+<./img/accuracy.png, id=67, 658.46pt x 456.70625pt>
 File: ./img/accuracy.png Graphic file (type png)
 <use ./img/accuracy.png>
-Package pdftex.def Info: ./img/accuracy.png  used on input line 201.
+Package pdftex.def Info: ./img/accuracy.png  used on input line 206.
 (pdftex.def)             Requested size: 329.2292pt x 228.35255pt.
-<./img/matrix.png, id=67, 727.71875pt x 356.33125pt>
+<./img/matrix.png, id=68, 727.71875pt x 356.33125pt>
 File: ./img/matrix.png Graphic file (type png)
 <use ./img/matrix.png>
-Package pdftex.def Info: ./img/matrix.png  used on input line 207.
+Package pdftex.def Info: ./img/matrix.png  used on input line 212.
 (pdftex.def)             Requested size: 218.3173pt x 106.90019pt.
  [10 <./img/model.png> <./img/model_plot.png> <./img/accuracy.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 210--216
+Underfull \hbox (badness 10000) in paragraph at lines 215--221
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 210--216
+Underfull \hbox (badness 10000) in paragraph at lines 215--221
 
  []
 
-[11 <./img/matrix.png>] (./COMP5400 CW2.aux)
+[11 <./img/matrix.png>]
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: Command \textless invalid in math mode on input line 235.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 235.
+
+
+LaTeX Warning: Command \textgreater invalid in math mode on input line 235.
+
+
+LaTeX Warning: Command \textgreater invalid in math mode on input line 235.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 237.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 237.
+
+
+LaTeX Warning: Command \textgreater invalid in math mode on input line 237.
+
+
+LaTeX Warning: Command \textgreater invalid in math mode on input line 237.
+
+[12] (./COMP5400 CW2.aux)
+
+LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 4832 strings out of 492616
- 70390 string characters out of 6129480
- 136250 words of memory out of 5000000
- 8660 multiletter control sequences out of 15000+600000
+ 4838 strings out of 492616
+ 70503 string characters out of 6129480
+ 136293 words of memory out of 5000000
+ 8665 multiletter control sequences out of 15000+600000
  9994 words of font info for 40 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,9n,32p,932b,318s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,9n,32p,739b,318s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
 }</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
 </usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><
@@ -661,10 +693,10 @@ cal/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/loca
 l/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/t
 exlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/te
 xlive/2019/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on "COMP5400 CW2.pdf" (11 pages, 827085 bytes).
+Output written on "COMP5400 CW2.pdf" (12 pages, 849739 bytes).
 PDF statistics:
- 109 PDF objects out of 1000 (max. 8388607)
- 58 compressed objects within 1 object stream
+ 113 PDF objects out of 1000 (max. 8388607)
+ 60 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 106 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 111 words of extra memory for PDF output out of 10000 (max. 10000000)
 

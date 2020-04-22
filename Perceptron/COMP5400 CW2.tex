@@ -10,24 +10,29 @@
 \usepackage{subfigure}
 
 \title{COMP5400 Coursework2}
-\author{Pengyuan Huang, ml18p3h}
+\author{Student ID: ml18p3h}
 \date{\today}
 
 \begin{document}
 
 \maketitle
 
-\section{Introduction}
-This is the introduction of this . file about this coursework. This compressed file contains the recorded .txt data file and contains three .py files: plot.py is used for ploting figures of average fitness and best fitness, and separate.py is used to separate the data of prey and predator to generate two .txt files, compare.py is to put the curves of prey and predator in the same figure for comparsion. As for .png files, they are basically average fitness and best fitness figures drawn by Python, and they will appear in this report as well. The mouse network.cc is mouse.cc after using DynamicalNet instead of FeedForwardNet, and the mouse proximity.cc is mouse.cc after adding the proximity sensor, the mouse fitness.cc is mouse.cc after changing fitness function. Finally, COMP5400 CW1.tex is a LaTex source file, and this COMP5400 CW1.pdf report is generated after compiling .tex file.
-
 \section{Question 1}
 Make a scatter plot of petal length against petal width. This means that for each entry in the data set you plot a point in the 2D plane with petal length as y coordinate, and petal width as x coordinate. Use three different markers (or different colours), one for setosa, one for versicolor and one for virginica. Plot other sepal/petal length/width combinations as well.
 [10 marks]\\\\
 \textbf{Answer:}\\
+I use plot.py to make this scatter plot of petal length against petal width (the commented part of the code), as shown below.
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.4]{./img/scatter.png}
+\caption{petal length against petal width}
+\end{figure}
+\noindent
+In addition, I draw a total plot including 16 subplots (12 subplots are useful actually), as shown below. They are the combinations of sepal/petal length/width, each parameter can be combined with three other parameters, that is why there are 12 useful subplots. It it note that the blue points represents setosa, the green represents versicolor, and red one means virginica.
 \begin{figure}[H]
 \centering
 \includegraphics[scale=0.4]{./img/iris.png}
-\caption{Iris Dataset (blue=setosa, green=versicolour, red=virginca)}
+\caption{Iris Dataset (blue=setosa, green=versicolour, red=virginica)}
 \end{figure}
 
 \section{Question 2}
@@ -214,5 +219,25 @@ It is clear that this model by Keras has better performace than the network I bu
 \textbf{2.} Next, the network model I built uses gradient descent to update weights, however the model of Keras uses advanced activation, optimizer and loss function, which means it can update and compute network parameters that affect model training and model output to approximate to reach optimal values, thereby minimizing (or maxmizing) the loss function.\\\\
 In addtion, I need to change the number of hidden nodes to consider experimenting with the loss function. The default number of nodes is 4. I change it to 10 and 100, retrain the model and get the figure of loss and accuracy, as shown below:
 
-
+\section{Instruction and Usage}
+This is the instruction and usage of this coursework. This compressed file contains the source code and resources as follows:
+\begin{itemize}
+	\item transfer.py: transfer Iris.data to Iris.csv, add header into file
+	\item plot.py: a scatter plot of sepal/petal length/width combinations of Q1
+	\item perceptron.py: implement a percetron to train setosa vs. non-setosa, virginica vs. non-virginica and versicolor vs. non-versicolor of Q3
+	\item network.py: a full network model of Q4
+	\item Keras\_Iris.ipynb: a network built by Keras of Q5
+	\item img folder: including the generated images
+	\item data folder: including the the data of Iris data set
+\end{itemize}
+Specifically, if we want to run perceptron.py, we can open the terminal and type in the following type:
+\begin{center}
+python perceptron.py $\textless$class$\textgreater$ with
+\end{center}
+The $\textless$class$\textgreater$ can be reaplced by the name of class, like setosa, virginica and versicolor. Also, `with' means with learning rate 0.01, `without' means without using learning rate. For example:
+\begin{center}
+python perceptron.py setosa without
+\end{center}
+As for Keras\_Iris.ipynb, we are supposed to run it via Juypter Notebook or Google Colab.\\
+In addition, this .tar file also includes a PDF report and .tex, a LaTex source file.
 \end{document}
