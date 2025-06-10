@@ -1,6 +1,6 @@
 # NNs  
 
-<h6>Deep Learning Exercises</h6>
+<h6>Deep Learning Exercises of the University of Leeds</h6>
 
 ![](https://img.shields.io/badge/uses-PyTorch-ee4c2c?logo=PyTorch&logoColor=white)
 ![](https://img.shields.io/badge/uses-Keras-d00000?logo=Keras&logoColor=white)
